@@ -1782,6 +1782,8 @@ Kerridge (PDF) (email address *requested*, not required)
 
 ### JavaScript
 
+> :information_source: See also &#8230; [TypeScript](#typescript)
+
 * [Basic JavaScript for the impatient programmer](http://www.2ality.com/2013/06/basic-javascript.html) - Dr. Axel Rauschmayer (HTML)
 * [Book of Modern Frontend Tooling](https://github.com/tooling/book-of-modern-frontend-tooling) - Various (HTML)
 * [Building Front-End Web Apps with Plain JavaScript](https://web-engineering.info/JsFrontendApp-Book) - Gerd Wagner (HTML,PDF)
@@ -1834,6 +1836,8 @@ Kerridge (PDF) (email address *requested*, not required)
 * [Understanding JavaScript OOP](http://robotlolita.me/2011/10/09/understanding-javascript-oop.html) - Quil (HTML)
 * [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) - Kyle Simpson (HTML, PDF, EPUB, MOBI)
 
+> :information_source: See also &#8230; [TypeScript](#typescript)
+
 
 #### AngularJS
 
@@ -1851,6 +1855,8 @@ Kerridge (PDF) (email address *requested*, not required)
 * [AngularJS vs EmberJs](https://angularjs-emberjs-compare.bguiz.com) - Brendan Graetz (HTML, [PDF, EBOOK, Kindle](https://leanpub.com/angularjs-emberjs-compare)) (Leanpub account / email address *not required*)
 * [Seven-Part Introduction to AngularJS](http://ngokevin.com/blog/angular-1/) - Keving Ngo (HTML, [:package: demos, open-sourced examples](https://github.com/ngokevin/angularbook))
 * [Unit Testing Best Practices in AngularJS](http://andyshora.com/unit-testing-best-practices-angularjs.html) - Andy Shora (HTML)
+
+> :information_source: See also &#8230; [Angular](#angular)
 
 
 #### Aurelia
