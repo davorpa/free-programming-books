@@ -58,6 +58,7 @@
 * [Belajar Git untuk Pemula](https://github.com/petanikode/belajar-git)
 * [Kontrol Versi dengan Git](https://leanpub.com/kontrol-versi-git)
 * [Pro Git 2nd Edition](https://git-scm.com/book/id/v2)
+* [Git & Github Dasar](https://www.youtube.com/watch?v=lTMZxWMjXQU&list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf) - Web Programming Unpas
 
 
 ### Go
