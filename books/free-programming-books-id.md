@@ -13,6 +13,7 @@
 * [Node.js](#nodejs)
 * [NoSQL](#nosql)
 * [Pemrograman Fungsional](#pemrograman-fungsional)
+* [Pemrograman Prosedural](#pemrograman-prosedural)
 * [Pemrograman Kompetitif](#pemrograman-kompetitif)
 * [PHP](#php)
 * [Python](#python)
@@ -106,6 +107,11 @@
 ### Pemrograman Fungsional
 
 * [Pemrograman Fungsional untuk Rakyat Jelata dengan Scalaz](https://leanpub.com/fpmortals-id)
+
+
+### Pemograman Prosedural 
+
+* [Dasar Pemrograman Prosedurl](https://repository.dinus.ac.id/docs/ajar/Diktat_Prosedural_OK.pdf)
 
 
 ### Pemrograman Kompetitif
