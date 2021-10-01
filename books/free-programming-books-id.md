@@ -109,9 +109,9 @@
 * [Pemrograman Fungsional untuk Rakyat Jelata dengan Scalaz](https://leanpub.com/fpmortals-id)
 
 
-### Pemograman Prosedural 
+### Pemrograman Prosedural 
 
-* [Dasar Pemrograman Prosedurl](https://repository.dinus.ac.id/docs/ajar/Diktat_Prosedural_OK.pdf)
+* [Pemrograman Prosedural Dasar](https://repository.dinus.ac.id/docs/ajar/Diktat_Prosedural_OK.pdf)
 
 
 ### Pemrograman Kompetitif
