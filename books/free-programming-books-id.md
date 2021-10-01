@@ -111,7 +111,7 @@
 
 ### Pemrograman Prosedural 
 
-* [Pemrograman Prosedural Dasar](https://repository.dinus.ac.id/docs/ajar/Diktat_Prosedural_OK.pdf)
+* [Diktat Pemrograman Prosedural Dasar](https://repository.dinus.ac.id/docs/ajar/Diktat_Prosedural_OK.pdf) - Inggriani Liem (PDF)
 
 
 ### Pemrograman Kompetitif
