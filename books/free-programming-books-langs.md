@@ -117,7 +117,6 @@ That section got so big, we decided to split it into its own file, the [BY SUBJE
   * [Redux](#redux)
   * [Svelte](#svelte)
   * [Vue.js](#vuejs)
-* [Jenkins](#jenkins)
 * [Julia](#julia)
 * [Kotlin](#kotlin)
 * [Language Agnostic](free-programming-books-subjects.md)
@@ -1349,12 +1348,6 @@ That section got so big, we decided to split it into its own file, the [BY SUBJE
 * [30 Days Of Vue](https://www.newline.co/30-days-of-vue) - Hassan Djirdeh (HTML; *email required for PDF*)
 * [Learning Vue.js](https://riptutorial.com/Download/vue-js.pdf) (PDF)
 * [The Vue.js Handbook](https://flaviocopes.nyc3.digitaloceanspaces.com/vue-handbook/vue-handbook.pdf) - Flavio Copes (PDF)
-
-
-### Jenkins
-
-* [Jenkins: The Definitive Guide](http://www.bogotobogo.com/DevOps/Jenkins/images/Intro_install/jenkins-the-definitive-guide.pdf) (PDF)
-* [Jenkins User Handbook](https://www.jenkins.io/user-handbook.pdf) (PDF)
 
 
 ### Julia

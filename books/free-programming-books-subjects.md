@@ -232,7 +232,8 @@ Books that cover a specific programming language can be found in the  [BY PROGRA
 
 ### Continuous Integration and Delivery
 
-<!-- Waiting to add in -->
+* [Jenkins: The Definitive Guide](http://www.bogotobogo.com/DevOps/Jenkins/images/Intro_install/jenkins-the-definitive-guide.pdf) (PDF)
+* [Jenkins User Handbook](https://www.jenkins.io/user-handbook.pdf) (PDF)
 
 
 ### Database
