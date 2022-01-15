@@ -1,5 +1,22 @@
 name: Check URLs from changed files
-on: [push, pull_request]
+
+on:
+  push:
+    branches:
+      # Push events our default branch
+#      - master
+      - main
+      # Push events our auxiliar branches
+      - docs
+      - gh-pages
+      # Push events to branches matching refs/heads/fpb/...
+      - 'fpb/**'
+      # Push events to branches matching refs/heads/[username]/...
+#      - ${{ github.actor }}/**  # placeholders doesn't work yet
+      - 'eshellman/**'
+      - 'davorpa/**'
+  pull_request:
+
 jobs:
   job:
     runs-on: ubuntu-latest
