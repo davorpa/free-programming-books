@@ -31,7 +31,7 @@ fairly and consistently applying these principles to every aspect of managing
 this project. Project maintainers who do not follow or enforce the Code of
 Conduct may be permanently removed from the project team.
 
-This code of conduct applies both within project spaces and in public spaces
+This Code of Conduct applies both within project spaces and in public spaces
 when an individual is representing the project or its community.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
@@ -43,8 +43,9 @@ incident.
 
 
 This Code of Conduct is adapted from the [Contributor Covenant][homepage],
-version 1.3.0, available at https://contributor-covenant.org/version/1/3/0/
-
-[homepage]: https://contributor-covenant.org
+version 1.3.0, available at https://www.contributor-covenant.org/version/1/3/0/code-of-conduct.html
 
 [Translations](README.md#translations)
+
+
+[homepage]: https://www.contributor-covenant.org
