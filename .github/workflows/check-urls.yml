@@ -1,19 +1,38 @@
 name: Check URLs from changed files
-on: [push, pull_request]
+
+on:
+  push:
+  pull_request:
+
 jobs:
   job:
     runs-on: ubuntu-latest
     steps:
+
       - uses: actions/checkout@v3
-      - uses: trilom/file-changes-action@v1.2.4
-        id: file_changes
+
+      - name: Get changed files
+        id: file-changes
+        uses: trilom/file-changes-action@v1.2.4
         with:
           output: ''
+
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.6
-      - run: gem install awesome_bot
-      - run: for i in ${{ steps.file_changes.outputs.files_modified }}; do echo; echo "processing $i"; awesome_bot $i --allow-redirect --allow-dupe --allow-ssl || true; done
+
+      - run: |
+          gem install awesome_bot
+
+      - name: Check each changed file
+        run: |
+          for file in ${{ steps.file-changes.outputs.files_modified }}; do
+            echo;
+            echo "::group::Processing file... $file"
+            awesome_bot "$file" --allow-redirect --allow-dupe --allow-ssl || true;
+            echo "::endgroup::"
+          done
+
       - uses: actions/upload-artifact@v3
         with:
           path: ${{ github.workspace }}/*.json
