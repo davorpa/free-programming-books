@@ -11,8 +11,9 @@ jobs:
 
       - uses: actions/checkout@v3
 
-      - uses: trilom/file-changes-action@v1.2.4
-        id: file_changes
+      - name: Get changed files
+        id: file-changes
+        uses: trilom/file-changes-action@v1.2.4
         with:
           output: ''
 
@@ -23,11 +24,12 @@ jobs:
       - run: |
           gem install awesome_bot
 
-      - run: |
-          for i in ${{ steps.file_changes.outputs.files_modified }}; do
+      - name: Check each changed file
+        run: |
+          for file in ${{ steps.file-changes.outputs.files_modified }}; do
             echo;
-            echo "::group::Processing file... $i"
-            awesome_bot $i --allow-redirect --allow-dupe --allow-ssl || true;
+            echo "::group::Processing file... $file"
+            awesome_bot "$file" --allow-redirect --allow-dupe --allow-ssl || true;
             echo "::endgroup::"
           done
 
