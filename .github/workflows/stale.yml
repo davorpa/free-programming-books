@@ -20,6 +20,10 @@ jobs:
   process-issues:
     name: Process Issues
 
+    outputs:
+      staled-issues: ${{ steps.staler.outputs.staled-issues-prs }}
+      closed-issues: ${{ steps.staler.outputs.closed-issues-prs }}
+
     permissions:
       issues: write
 
@@ -27,6 +31,7 @@ jobs:
 
     steps:
       - uses: actions/stale@v5
+        id: staler
         with:
           operations-per-run: 30
           days-before-issue-stale: 1
@@ -52,6 +57,10 @@ jobs:
   process-prs:
     name: Process Pull Requests
 
+    outputs:
+      staled-prs: ${{ steps.staler.outputs.staled-issues-prs }}
+      closed-prs: ${{ steps.staler.outputs.closed-issues-prs }}
+
     permissions:
       pull-requests: write
 
@@ -59,6 +68,7 @@ jobs:
 
     steps:
       - uses: actions/stale@v5
+        id: staler
         with:
           operations-per-run: 30
           days-before-pr-stale: 1
@@ -118,7 +128,7 @@ jobs:
           GITHUB_REPO_URL:   ${{ format('{0}/{1}', github.server_url, github.repository) }}
           GITHUB_ISSUES_URL: ${{ format('{0}/{1}/issues', github.server_url, github.repository) }}
           GITHUB_PULL_URL:   ${{ format('{0}/{1}/pull', github.server_url, github.repository) }}
-          STALED_ISSUES: ${{ needs.process-issues.outputs.staled-issues-prs }}
-          CLOSED_ISSUES: ${{ needs.process-issues.outputs.closed-issues-prs }}
-          STALED_PRS:    ${{ needs.process-prs.outputs.staled-issues-prs }}
-          CLOSED_PRS:    ${{ needs.process-prs.outputs.closed-issues-prs }}
+          STALED_ISSUES: ${{ needs.process-issues.outputs.staled-issues }}
+          CLOSED_ISSUES: ${{ needs.process-issues.outputs.closed-issues }}
+          STALED_PRS:    ${{ needs.process-prs.outputs.staled-prs }}
+          CLOSED_PRS:    ${{ needs.process-prs.outputs.closed-prs-issues-prs }}
