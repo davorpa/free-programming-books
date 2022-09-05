@@ -54,6 +54,9 @@ jobs:
           exempt-issue-labels: "blocked,must,should,keep,👥 discussion,👀 Needs Review,📌 pinned"
           days-before-pr-stale: -1
           days-before-pr-close: -1
+      - name: Print outputs
+        run: |
+          echo ${{ join(steps.staler.outputs.*, ',') }}
 
 
   process-prs:
@@ -94,6 +97,9 @@ jobs:
           exempt-draft-pr: true
           days-before-issue-stale: -1
           days-before-issue-close: -1
+      - name: Print outputs
+        run: |
+          echo ${{ join(steps.staler.outputs.*, ',') }}
 
 
   reporter:
