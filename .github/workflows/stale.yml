@@ -2,8 +2,8 @@ name: Stale and close inactive issues/PRs
 
 on:
   schedule:
-    - cron: "0-30 0-23 * * *"  # every 30 minutes
-  workflow_dispatch:           # or manually
+    - cron: "0 0-23 * * *"  # every 1 hour at o'clock
+  workflow_dispatch:        # or manually
 
 permissions:
   contents: none
